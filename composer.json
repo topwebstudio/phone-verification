@@ -1,0 +1,12 @@
+{
+    "name": "topwebstudio/phone-verification",
+    "description": "Country list class",
+    "require": {
+        "brick/phonenumber": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Topwebstudio\\PhoneVerification": "src/"
+        }
+    }
+}
