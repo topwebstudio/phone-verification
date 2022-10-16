@@ -8,7 +8,7 @@ use Brick\PhoneNumber\PhoneNumberFormat;
 
 class Verification {
 
-    protected function getPhoneData($phone) {
+    public function getPhoneData($phone) {
 
         $error = '';
         try {
